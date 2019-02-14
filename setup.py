@@ -5,7 +5,7 @@
 import setuptools
 
 REQUIRED = [
-    "numpy"
+    "sklearn",
     "pandas"
 ]
 
@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-valogonor",
-    version="0.0.2",
+    version="0.0.3",
     author="valogonor",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
